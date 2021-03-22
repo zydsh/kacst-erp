@@ -10,7 +10,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'ReadStrategies',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("f611d3fb-9d80-4a08-af29-b6b81f33b91e",
 	'ReadStrategies',
@@ -22,7 +23,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'SendStrategies',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("e995f3cf-f39a-49fb-b19a-f7fca5a6575f",
 	'SendStrategies',
@@ -61,7 +63,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'Reply',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("6062fcf7-0864-4e03-a22a-bea39834ef9d",
 	'Reply',
@@ -91,7 +94,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'Initialize',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("e0b36002-56f9-4df1-9356-a98484736a3a",
 	'Initialize',
@@ -105,7 +109,8 @@ INSERT INTO C_EP
 	'ReadMilestones',
 	'Get a list of milestones related to
 an initiative. One parameter is enough
-to identify the initiative.');
+to identify the initiative.',
+	0);
 INSERT INTO C_AS
 	VALUES ("0fb486de-51ef-4059-86fb-07272aa62973",
 	'ReadMilestones',
@@ -146,7 +151,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'SendMilestones',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("164afa80-0634-483c-873c-74974775a70c",
 	'SendMilestones',
@@ -284,7 +290,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'CreateInitiative',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("4d8c9fe4-1360-4d30-90fd-12402e63d2a3",
 	'CreateInitiative',
@@ -368,7 +375,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'CreateStrategy',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("a46a1746-64f0-4558-ae36-f10f118eaa24",
 	'CreateStrategy',
@@ -407,7 +415,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'CreateProject',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("b68f3204-5e86-499d-88df-db00b93866ef",
 	'CreateProject',
@@ -473,7 +482,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'ReadInitiatives',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("1afcea8f-1baf-4bd0-999f-9363af4ca62d",
 	'ReadInitiatives',
@@ -485,7 +495,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'SendInitiatives',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("1d5ac5a5-3c6f-45dc-ba1a-b7dd16ef624e",
 	'SendInitiatives',
@@ -551,7 +562,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'ReadProjects',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("bc328c2e-2892-4f5f-869a-c51fcb125847",
 	'ReadProjects',
@@ -563,7 +575,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'SendProjects',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("8dc4a734-be3b-4ab9-a837-6a24b94e3215",
 	'SendProjects',
@@ -629,7 +642,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'AddMilestone',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("823d6250-b774-4665-8272-9dc2cc28eadd",
 	'AddMilestone',
@@ -713,7 +727,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'CreateChangeRequest',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("b9687437-2df6-41c0-bb96-f4dfbe905d8e",
 	'CreateChangeRequest',
@@ -759,19 +774,12 @@ INSERT INTO C_PP
 INSERT INTO C_PP
 	VALUES ("48a87389-ec8b-4c3b-a489-50d52372efba",
 	"b9687437-2df6-41c0-bb96-f4dfbe905d8e",
-	"58076fd0-ad73-447e-aa62-1821ca48b9a3",
+	"ba5eda7a-def5-0000-0000-000000000004",
 	'ImpactCategory',
 	'',
 	0,
 	'',
 	"28e9d534-6c9b-4fa7-b424-d84daf0b5964");
-INSERT INTO S_DT_PROXY
-	VALUES ("58076fd0-ad73-447e-aa62-1821ca48b9a3",
-	"00000000-0000-0000-0000-000000000000",
-	'ImpactCategory',
-	'',
-	'',
-	'../../SharedTypes/SharedTypes.xtuml');
 INSERT INTO C_PP
 	VALUES ("65184735-a78f-4e4a-9c76-1f98f44ebf03",
 	"b9687437-2df6-41c0-bb96-f4dfbe905d8e",
@@ -786,7 +794,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'CreateChangeRequestImpact',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("aadb0141-b089-41fb-9f0c-02b0146fa52e",
 	'CreateChangeRequestImpact',
@@ -796,7 +805,7 @@ INSERT INTO C_AS
 INSERT INTO C_PP
 	VALUES ("87ee2bf2-a3a3-4978-9326-415cd17392a0",
 	"aadb0141-b089-41fb-9f0c-02b0146fa52e",
-	"58076fd0-ad73-447e-aa62-1821ca48b9a3",
+	"ba5eda7a-def5-0000-0000-000000000004",
 	'Category',
 	'',
 	0,
@@ -825,7 +834,8 @@ INSERT INTO C_EP
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'InitiateChangeRequest',
-	'');
+	'',
+	0);
 INSERT INTO C_AS
 	VALUES ("00053e29-0318-4de9-b625-8bc71d10ede1",
 	'InitiateChangeRequest',

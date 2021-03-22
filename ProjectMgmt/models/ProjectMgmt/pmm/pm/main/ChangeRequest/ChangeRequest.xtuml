@@ -44,6 +44,7 @@ end if;',
 	1,
 	'',
 	"00000000-0000-0000-0000-000000000000",
+	0,
 	0);
 INSERT INTO O_TPARM
 	VALUES ("023bcd52-aeb5-45e5-9e54-1df537125e57",
@@ -85,18 +86,11 @@ INSERT INTO O_TPARM
 	VALUES ("f68f652f-97bf-4ab8-b1cb-b3b66d4d78d7",
 	"f1ebb4ca-d629-469a-be68-f52787eb5a94",
 	'ImpactCategory',
-	"58076fd0-ad73-447e-aa62-1821ca48b9a3",
+	"ba5eda7a-def5-0000-0000-000000000004",
 	0,
 	'',
 	"597cce4e-237b-4af6-bf78-2ed239b8fb3f",
 	'');
-INSERT INTO S_DT_PROXY
-	VALUES ("58076fd0-ad73-447e-aa62-1821ca48b9a3",
-	"00000000-0000-0000-0000-000000000000",
-	'ImpactCategory',
-	'',
-	'',
-	'../../../../SharedTypes/SharedTypes.xtuml');
 INSERT INTO O_TPARM
 	VALUES ("e19de070-9b46-4291-b8d3-93c4c2123a03",
 	"f1ebb4ca-d629-469a-be68-f52787eb5a94",
@@ -140,6 +134,7 @@ CR.CreationDate = 0;
 	1,
 	'',
 	"f1ebb4ca-d629-469a-be68-f52787eb5a94",
+	0,
 	0);
 INSERT INTO O_NBATTR
 	VALUES ("11161441-4785-4705-afd9-8f3ea91fb842",

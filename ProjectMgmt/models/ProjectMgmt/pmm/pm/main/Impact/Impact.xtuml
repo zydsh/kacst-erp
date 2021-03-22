@@ -31,23 +31,17 @@ end if;
 	1,
 	'',
 	"00000000-0000-0000-0000-000000000000",
+	0,
 	0);
 INSERT INTO O_TPARM
 	VALUES ("4180090c-91f8-4bc7-b9f4-87008381d002",
 	"6b9e78e3-9111-4971-9bb7-6cc549d9e476",
 	'Category',
-	"58076fd0-ad73-447e-aa62-1821ca48b9a3",
+	"ba5eda7a-def5-0000-0000-000000000004",
 	0,
 	'',
 	"00000000-0000-0000-0000-000000000000",
 	'');
-INSERT INTO S_DT_PROXY
-	VALUES ("58076fd0-ad73-447e-aa62-1821ca48b9a3",
-	"00000000-0000-0000-0000-000000000000",
-	'ImpactCategory',
-	'',
-	'',
-	'../../../../SharedTypes/SharedTypes.xtuml');
 INSERT INTO O_TPARM
 	VALUES ("ad8f7b53-6056-4898-b3e0-2f78bffe14f1",
 	"6b9e78e3-9111-4971-9bb7-6cc549d9e476",
@@ -77,6 +71,7 @@ INSERT INTO O_TFR
 	1,
 	'',
 	"6b9e78e3-9111-4971-9bb7-6cc549d9e476",
+	0,
 	0);
 INSERT INTO O_TPARM
 	VALUES ("93952747-17ea-49bc-a8a6-a07b4aa960ad",
@@ -102,7 +97,7 @@ INSERT INTO O_ATTR
 	'',
 	'Category',
 	0,
-	"58076fd0-ad73-447e-aa62-1821ca48b9a3",
+	"ba5eda7a-def5-0000-0000-000000000004",
 	'',
 	'');
 INSERT INTO O_NBATTR
