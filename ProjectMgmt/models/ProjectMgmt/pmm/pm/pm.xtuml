@@ -326,7 +326,8 @@ INSERT INTO SPR_PS
 	'Get a list of milestones related to
 an initiative. One parameter is enough
 to identify the initiative.',
-	'select any initiative from instances of Initiative where selected.Name ==param.InitiativeName or selected.LongNumber==param.InitiativeLongNumber or selected.ShortNumber==param.InitiativeShortNumber; 
+	'/*
+select any initiative from instances of Initiative where selected.Name ==param.InitiativeName or selected.LongNumber==param.InitiativeLongNumber or selected.ShortNumber==param.InitiativeShortNumber; 
 select many milestones related by initiative->Milestone[R60.''achieves'']; 
 if (not empty milestones)
 	LOG::LogInfo(message:"Sending milestone set .. ");
@@ -340,7 +341,8 @@ else
 	LOG::LogInfo(message:"Milestone: No milestones found in the system ");
 
 end if;
-',
+
+*/',
 	1,
 	0);
 INSERT INTO C_EP_PROXY
@@ -554,7 +556,8 @@ INSERT INTO SPR_PS
 	VALUES ("4bfccb35-e103-4711-907a-6f7a84e00079",
 	'AddMilestone',
 	'',
-	'select any init from instances of Initiative where selected.Name==param.Initiative;
+	'/*
+select any init from instances of Initiative where selected.Name==param.Initiative;
 if (not empty init) 
 	create object instance mile of Milestone;
 	mile.FullCode = param.FullCode;
@@ -567,7 +570,7 @@ if (not empty init)
 	relate init to mile across R60.''achieves'';
 
 end if;
- ',
+ */',
 	1,
 	0);
 INSERT INTO C_EP_PROXY
@@ -575,6 +578,60 @@ INSERT INTO C_EP_PROXY
 	"b9747524-a416-4a89-a9ef-0062b1f78a12",
 	-1,
 	'AddMilestone',
+	'',
+	'../../Interfaces/Projects/Projects.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("74008f97-ed74-47bc-a78a-7ac5ac96d1c4",
+	"b9687437-2df6-41c0-bb96-f4dfbe905d8e",
+	"1ba050a2-d419-4423-b771-96be8886d0a0");
+INSERT INTO SPR_PS
+	VALUES ("74008f97-ed74-47bc-a78a-7ac5ac96d1c4",
+	'CreateChangeRequest',
+	'',
+	'',
+	1,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("b9687437-2df6-41c0-bb96-f4dfbe905d8e",
+	"b9747524-a416-4a89-a9ef-0062b1f78a12",
+	-1,
+	'CreateChangeRequest',
+	'',
+	'../../Interfaces/Projects/Projects.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("a61349f2-c7c0-450e-9ccb-6dc058e99026",
+	"aadb0141-b089-41fb-9f0c-02b0146fa52e",
+	"1ba050a2-d419-4423-b771-96be8886d0a0");
+INSERT INTO SPR_PS
+	VALUES ("a61349f2-c7c0-450e-9ccb-6dc058e99026",
+	'CreateChangeRequestImpact',
+	'',
+	'',
+	1,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("aadb0141-b089-41fb-9f0c-02b0146fa52e",
+	"b9747524-a416-4a89-a9ef-0062b1f78a12",
+	-1,
+	'CreateChangeRequestImpact',
+	'',
+	'../../Interfaces/Projects/Projects.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("f5a254f6-bb8c-4423-ba7b-91ee52ac9c14",
+	"00053e29-0318-4de9-b625-8bc71d10ede1",
+	"1ba050a2-d419-4423-b771-96be8886d0a0");
+INSERT INTO SPR_PS
+	VALUES ("f5a254f6-bb8c-4423-ba7b-91ee52ac9c14",
+	'InitiateChangeRequest',
+	'',
+	'',
+	1,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("00053e29-0318-4de9-b625-8bc71d10ede1",
+	"b9747524-a416-4a89-a9ef-0062b1f78a12",
+	-1,
+	'InitiateChangeRequest',
 	'',
 	'../../Interfaces/Projects/Projects.xtuml');
 INSERT INTO C_I_PROXY
