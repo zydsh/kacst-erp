@@ -51,6 +51,18 @@ INSERT INTO S_DT_PROXY
 	'',
 	'',
 	'../../SharedTypes/SharedTypes.xtuml');
+INSERT INTO C_EP
+	VALUES ("b9eee07a-4899-43c0-9edc-de3a867c4eed",
+	"c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
+	-1,
+	'Reply',
+	'');
+INSERT INTO C_AS
+	VALUES ("b9eee07a-4899-43c0-9edc-de3a867c4eed",
+	'Reply',
+	'',
+	1,
+	"334f7ee2-3a44-4e16-a937-7185821c2408");
 INSERT INTO PE_PE
 	VALUES ("c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
 	1,
