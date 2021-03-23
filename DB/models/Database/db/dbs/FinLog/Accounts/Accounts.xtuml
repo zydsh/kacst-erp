@@ -22,7 +22,7 @@ INSERT INTO O_ATTR
 	'',
 	'Code',
 	0,
-	"ba5eda7a-def5-0000-0000-000000000002",
+	"ba5eda7a-def5-0000-0000-000000000004",
 	'',
 	'');
 INSERT INTO O_NBATTR
@@ -40,7 +40,7 @@ INSERT INTO O_ATTR
 	'',
 	'Name',
 	0,
-	"ba5eda7a-def5-0000-0000-000000000002",
+	"ba5eda7a-def5-0000-0000-000000000004",
 	'',
 	'');
 INSERT INTO O_NBATTR
@@ -58,9 +58,16 @@ INSERT INTO O_ATTR
 	'',
 	'Action',
 	0,
-	"ba5eda7a-def5-0000-0000-000000000002",
+	"8246f137-ea97-43f9-8d8a-e5993156377b",
 	'',
 	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("8246f137-ea97-43f9-8d8a-e5993156377b",
+	"00000000-0000-0000-0000-000000000000",
+	'Account',
+	'',
+	'',
+	'../../../../SharedTypes/SharedTypes.xtuml');
 INSERT INTO O_ID
 	VALUES (0,
 	"1d5ab6c5-5f6b-404b-8e90-ff2d0bfd33ac");
