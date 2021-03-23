@@ -63,6 +63,24 @@ INSERT INTO C_AS
 	'',
 	1,
 	"334f7ee2-3a44-4e16-a937-7185821c2408");
+INSERT INTO C_PP
+	VALUES ("084cbb0e-1ce3-483c-b224-7d04143c390c",
+	"b9eee07a-4899-43c0-9edc-de3a867c4eed",
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'message',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("3e71de23-b387-4f6d-a822-1f407196d8fe",
+	"b9eee07a-4899-43c0-9edc-de3a867c4eed",
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'state',
+	'',
+	0,
+	'',
+	"084cbb0e-1ce3-483c-b224-7d04143c390c");
 INSERT INTO PE_PE
 	VALUES ("c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
 	1,
