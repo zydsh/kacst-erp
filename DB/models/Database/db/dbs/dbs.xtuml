@@ -214,8 +214,13 @@ INSERT INTO SPR_PS
 	VALUES ("187c14f8-b83c-405e-b194-f8de744c1a35",
 	'LogAccount',
 	'',
-	'',
-	3,
+	'	
+	create object instance account of Accounts;
+	account.Code = param.Code;
+	account.Name = param.Name;
+	account.Action = param.Action;
+ ',
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("334f7ee2-3a44-4e16-a937-7185821c2408",
