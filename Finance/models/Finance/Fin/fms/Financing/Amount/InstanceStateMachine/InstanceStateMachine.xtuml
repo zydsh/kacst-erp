@@ -800,6 +800,9 @@ self->Column[R130.''recorded under'']
 	->Account[R170.''operates''];
 
 relate self to debit across R30.''debits'';
+
+self.Log( EventType:Account::PaymentAssigned );
+
 ',
 	'',
 	0);
@@ -820,6 +823,8 @@ INSERT INTO SM_ACT
 		->Account[R170.''operates''];
 		
 relate self to credit across R50.''credits'';
+
+self.Log( EventType:Account::PaymentApproved );
 ',
 	'',
 	0);
@@ -872,7 +877,10 @@ select one account related by
 self->Account[R30.''debits'']; 
 
 unrelate self from account 
-across R30.''debits'';',
+across R30.''debits'';
+
+self.Log( EventType:Account::DeductionCanceled);
+',
 	'',
 	0);
 INSERT INTO SM_TAH
@@ -924,6 +932,8 @@ if (empty debit)
 	relate self to debit across R240.''is debit transfer'';
 
 end if;
+
+self.Log( EventType:Account::TransferMade );
 ',
 	'',
 	0);
@@ -972,6 +982,8 @@ INSERT INTO SM_ACT
 		->Account[R170.''operates''];
 		
 relate self to credit across R230.''is credit transfer'';
+
+self.Log( EventType:Account::TransferApproved );
 ',
 	'',
 	0);
@@ -1010,7 +1022,9 @@ select one account related by
 self->Account[R240.''is debit transfer'']; 
 
 unrelate self from account 
-across R240.''is debit transfer'';',
+across R240.''is debit transfer'';
+
+self.Log( EventType:Account::TransferAborted);',
 	'',
 	0);
 INSERT INTO SM_TAH
