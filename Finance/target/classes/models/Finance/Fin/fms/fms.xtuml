@@ -58,6 +58,11 @@ INSERT INTO DIM_CON
 	5710.000000,
 	3198.000000,
 	"83d3c4f3-f16d-404a-9853-2607718286fb");
+INSERT INTO DIM_CON
+	VALUES ("a6848c14-9491-4d8f-a3df-c80c8e512e3b",
+	4962.000000,
+	3255.000000,
+	"83d3c4f3-f16d-404a-9853-2607718286fb");
 INSERT INTO GD_GE
 	VALUES ("2304016b-f949-4b2b-8cc3-02a4b9d6cff6",
 	"c880649e-4f85-4c52-a44c-78552f505359",
@@ -254,6 +259,106 @@ INSERT INTO DIM_ELE
 	VALUES ("95270249-7c45-4cf6-b4b1-c0fd07cc88b3",
 	0,
 	"83d3c4f3-f16d-404a-9853-2607718286fb");
+INSERT INTO GD_GE
+	VALUES ("d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	"c880649e-4f85-4c52-a44c-78552f505359",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0",
+	93,
+	0,
+	'Finance::Fin::fms::DB::DB');
+INSERT INTO GD_CON
+	VALUES ("d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("6b039319-0c56-4dc2-9588-0d49f1eb2006",
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	0,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"6b039319-0c56-4dc2-9588-0d49f1eb2006");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"6b039319-0c56-4dc2-9588-0d49f1eb2006",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("6b039319-0c56-4dc2-9588-0d49f1eb2006",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("d1eb4e13-7fbf-454e-bbd9-d255e5a2942a",
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"d1eb4e13-7fbf-454e-bbd9-d255e5a2942a");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"d1eb4e13-7fbf-454e-bbd9-d255e5a2942a",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("d1eb4e13-7fbf-454e-bbd9-d255e5a2942a",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("d65f6229-8042-4040-aba6-9754c7111806",
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"d65f6229-8042-4040-aba6-9754c7111806");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"d65f6229-8042-4040-aba6-9754c7111806",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("d65f6229-8042-4040-aba6-9754c7111806",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("7763f6b4-b4aa-4e10-be0d-d643d115631e",
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	"00000000-0000-0000-0000-000000000000",
+	"e18a508e-8335-4dd0-90e5-3ccb83dc6dae",
+	"90df3753-599d-44bc-addf-55810df176ec");
+INSERT INTO DIM_WAY
+	VALUES ("e18a508e-8335-4dd0-90e5-3ccb83dc6dae",
+	4962.000000,
+	3255.000000,
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_WAY
+	VALUES ("90df3753-599d-44bc-addf-55810df176ec",
+	4961.000000,
+	3324.000000,
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	"00000000-0000-0000-0000-000000000000",
+	"e18a508e-8335-4dd0-90e5-3ccb83dc6dae");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("d3d13229-b2c1-4e09-8c52-02b29cec204d",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("a6848c14-9491-4d8f-a3df-c80c8e512e3b",
+	"00000000-0000-0000-0000-000000000000",
+	"d3d13229-b2c1-4e09-8c52-02b29cec204d");
 INSERT INTO DIM_DIA
 	VALUES ("c880649e-4f85-4c52-a44c-78552f505359",
 	'',
@@ -1371,24 +1476,8 @@ INSERT INTO SPR_PS
 	'',
 	'select any transfers from instances of Journal where selected.Name == "المناقلات";
 if (not empty transfers)
-	select any column related by transfers->Column[R120.''has''] where selected.Title == param.Column;
-	if (not empty column)
-	create object instance entry of Entry;
-		entry.Date = param.Date;
-		entry.Description = param.Description;
-		relate entry to transfers across R101.''made to'';
-	create object instance amount of Amount;
-		amount.Amount = param.Amount;
-		relate column to amount across R130.''holds'';
-		relate entry to amount across R40.''records'';
-	select one debit related by column->AccountSpecification[R140.''debits'']->Account[R170.''operates''];
-	select one credit related by column->AccountSpecification[R150.''credits'']->Account[R170.''operates''];
-	relate amount to debit across R240.''is debit transfer'';
-	relate amount to credit across R230.''is credit transfer'';
-	
-	end if;
-
-end if;
+	transfers.MakeTransferEntry( Column:param.Column, Date:param.Date, Description:param.Description, Amount:param.Amount );
+end if;	
 
 ',
 	1,
@@ -1826,19 +1915,7 @@ INSERT INTO SPR_PS
 	'',
 	'select any journal from instances of Journal where selected.Name == "المناقلات";
 if (not empty journal)
-	select any column related by journal->Column[R120.''has''] where selected.Title==param.Column;
-	if (not empty column)
-		select many amounts related by column->Amount[R130.''holds''];
-		for each amount in amounts
-			select one entry related by amount->Entry[R40.''recorded for''];
-			UI::SendJournal( Name:journal.Name, Description:journal.Description, ColumnTitle:column.Title, 
-			ColumnDescription:column.Description, EntryDate:entry.Date, EntryDescription:entry.Description, 
-			EntryAmount:amount.Amount);
-			UI::Reply( msg:"Sent journal amount for entry within salary journal", state:True );
-		end for;
-	end if;
-else
-		UI::Reply( msg:"Salary journal is not initiated", state:False );
+	journal.ReadTransfers( Column:param.Column);
 
 end if;
 ',
@@ -2362,12 +2439,114 @@ INSERT INTO C_EP_PROXY
 	'PendingPay',
 	'',
 	'../../Interfaces/Finance/Finance.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("0d4b2218-5935-41b8-b788-d771a98bb520",
+	"67b89449-cdac-4c8d-9204-005216c0c726",
+	"84b7e49f-98e2-4539-b496-50575c189964");
+INSERT INTO SPR_PS
+	VALUES ("0d4b2218-5935-41b8-b788-d771a98bb520",
+	'ApproveTransfer',
+	'',
+	'select any column from instances of Column where selected.Title == param.Column;
+if (not empty column)
+	column.ApproveTransfer( Date:param.Date, Amount:param.Amount );
+end if;',
+	1,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("67b89449-cdac-4c8d-9204-005216c0c726",
+	"4050d50b-4358-41d0-aaf7-7da0e117e17c",
+	-1,
+	'ApproveTransfer',
+	'',
+	'../../Interfaces/Finance/Finance.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("e7b1dd72-8e43-493d-9e2b-465660f2b4d0",
+	"b76b55d1-346e-4f6f-aaa6-1e3c06fe8237",
+	"84b7e49f-98e2-4539-b496-50575c189964");
+INSERT INTO SPR_PS
+	VALUES ("e7b1dd72-8e43-493d-9e2b-465660f2b4d0",
+	'PendingTransfers',
+	'',
+	'select any journal from instances of Journal where selected.Name == "المناقلات";
+
+if (not empty journal)
+	journal.readPending();
+end if;',
+	1,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("b76b55d1-346e-4f6f-aaa6-1e3c06fe8237",
+	"4050d50b-4358-41d0-aaf7-7da0e117e17c",
+	-1,
+	'PendingTransfers',
+	'',
+	'../../Interfaces/Finance/Finance.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("4050d50b-4358-41d0-aaf7-7da0e117e17c",
 	"00000000-0000-0000-0000-000000000000",
 	'Finance',
 	'',
 	'../../Interfaces/Finance/Finance.xtuml');
+INSERT INTO C_PO
+	VALUES ("8eea900b-3bb5-4818-beb3-4d1f54273711",
+	"8d322bed-f6f2-48fc-b59c-77870565eb6e",
+	'DB',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("4765e5c0-fee4-46e1-85fa-db2ae539c7c0",
+	"c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
+	"00000000-0000-0000-0000-000000000000",
+	"8eea900b-3bb5-4818-beb3-4d1f54273711");
+INSERT INTO C_R
+	VALUES ("4765e5c0-fee4-46e1-85fa-db2ae539c7c0",
+	'DB',
+	'',
+	'Unnamed Interface',
+	'fms::DB::DB');
+INSERT INTO SPR_REP
+	VALUES ("ec7cbe6a-fdf0-47b7-8db8-87addaa53bca",
+	"334f7ee2-3a44-4e16-a937-7185821c2408",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("ec7cbe6a-fdf0-47b7-8db8-87addaa53bca",
+	'LogAccount',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("334f7ee2-3a44-4e16-a937-7185821c2408",
+	"c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
+	-1,
+	'LogAccount',
+	'',
+	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("c227a6a0-1979-44b9-9d71-769ed5494ef0",
+	"b9eee07a-4899-43c0-9edc-de3a867c4eed",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("c227a6a0-1979-44b9-9d71-769ed5494ef0",
+	'Reply',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("b9eee07a-4899-43c0-9edc-de3a867c4eed",
+	"c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
+	-1,
+	'Reply',
+	'',
+	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
+	"00000000-0000-0000-0000-000000000000",
+	'DB',
+	'',
+	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
 INSERT INTO PE_PE
 	VALUES ("8d322bed-f6f2-48fc-b59c-77870565eb6e",
 	1,
