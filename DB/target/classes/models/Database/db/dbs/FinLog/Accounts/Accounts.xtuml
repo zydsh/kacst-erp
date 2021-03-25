@@ -58,16 +58,16 @@ INSERT INTO O_ATTR
 	'',
 	'Action',
 	0,
-	"8246f137-ea97-43f9-8d8a-e5993156377b",
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
 	'',
 	'');
 INSERT INTO S_DT_PROXY
-	VALUES ("8246f137-ea97-43f9-8d8a-e5993156377b",
+	VALUES ("ff7466eb-0aff-45d9-bc48-3f240d210f84",
 	"00000000-0000-0000-0000-000000000000",
-	'Account',
+	'AccountEvents',
 	'',
 	'',
-	'../../../../SharedTypes/SharedTypes.xtuml');
+	'../../../../../../../Finance/models/Finance/SharedTypes/SharedTypes.xtuml');
 INSERT INTO O_ID
 	VALUES (0,
 	"1d5ab6c5-5f6b-404b-8e90-ff2d0bfd33ac");

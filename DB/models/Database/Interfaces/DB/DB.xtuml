@@ -38,19 +38,19 @@ INSERT INTO C_PP
 INSERT INTO C_PP
 	VALUES ("bca47a58-6073-4d59-8978-34b97fad991a",
 	"334f7ee2-3a44-4e16-a937-7185821c2408",
-	"8246f137-ea97-43f9-8d8a-e5993156377b",
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
 	'Action',
 	'',
 	0,
 	'',
 	"df581969-9568-4662-b4c2-8582ffda7aa0");
 INSERT INTO S_DT_PROXY
-	VALUES ("8246f137-ea97-43f9-8d8a-e5993156377b",
+	VALUES ("ff7466eb-0aff-45d9-bc48-3f240d210f84",
 	"00000000-0000-0000-0000-000000000000",
-	'Account',
+	'AccountEvents',
 	'',
 	'',
-	'../../SharedTypes/SharedTypes.xtuml');
+	'../../../../../Finance/models/Finance/SharedTypes/SharedTypes.xtuml');
 INSERT INTO C_EP
 	VALUES ("b9eee07a-4899-43c0-9edc-de3a867c4eed",
 	"c8bf3e51-42c0-4341-b849-acea1f7d8cb8",
@@ -126,7 +126,7 @@ INSERT INTO C_PP
 INSERT INTO C_PP
 	VALUES ("ea99e6a3-ff45-4a64-8da4-d9a29e93d58b",
 	"e3af3c1a-0b53-43b0-af3e-ddd2edd1ba67",
-	"8246f137-ea97-43f9-8d8a-e5993156377b",
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
 	'Action',
 	'',
 	0,
