@@ -827,7 +827,7 @@ INSERT INTO SM_ACT
 		
 relate self to credit across R50.''credits'';
 
-//self.Log( EventType:Account::PaymentApproved );
+self.Log( EventType:AccountEvents::PaymentApproved );
 ',
 	'',
 	0);
@@ -882,7 +882,7 @@ self->Account[R30.''debits''];
 unrelate self from account 
 across R30.''debits'';
 
-//self.Log( EventType:Account::DeductionCanceled);
+self.Log( EventType:AccountEvents::DeductionCanceled);
 ',
 	'',
 	0);
@@ -936,7 +936,7 @@ if (empty debit)
 
 end if;
 
-//self.Log( EventType:Account::TransferMade );
+self.Log( EventType:AccountEvents::TransferMade);
 ',
 	'',
 	0);
@@ -986,7 +986,7 @@ INSERT INTO SM_ACT
 		
 relate self to credit across R230.''is credit transfer'';
 
-//self.Log( EventType:Account::TransferApproved );
+self.Log( EventType:AccountEvents::TransferApproved);
 ',
 	'',
 	0);
@@ -1027,7 +1027,7 @@ self->Account[R240.''is debit transfer''];
 unrelate self from account 
 across R240.''is debit transfer'';
 
-//self.Log( EventType:Account::TransferAborted);',
+self.Log( EventType:AccountEvents::TransferAborted);',
 	'',
 	0);
 INSERT INTO SM_TAH
