@@ -2542,15 +2542,15 @@ INSERT INTO C_R
 	'Unnamed Interface',
 	'fms::DB::DB');
 INSERT INTO SPR_REP
-	VALUES ("ec7cbe6a-fdf0-47b7-8db8-87addaa53bca",
+	VALUES ("6e85c7fd-8d9d-4318-b3e0-d99e195e5d4a",
 	"334f7ee2-3a44-4e16-a937-7185821c2408",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("ec7cbe6a-fdf0-47b7-8db8-87addaa53bca",
+	VALUES ("6e85c7fd-8d9d-4318-b3e0-d99e195e5d4a",
 	'LogAccount',
 	'',
 	'',
-	1,
+	3,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("334f7ee2-3a44-4e16-a937-7185821c2408",
@@ -2560,15 +2560,15 @@ INSERT INTO C_EP_PROXY
 	'',
 	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
 INSERT INTO SPR_REP
-	VALUES ("c227a6a0-1979-44b9-9d71-769ed5494ef0",
+	VALUES ("4e859f41-ec18-48b7-8b3a-a324ffa6d87c",
 	"b9eee07a-4899-43c0-9edc-de3a867c4eed",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("c227a6a0-1979-44b9-9d71-769ed5494ef0",
+	VALUES ("4e859f41-ec18-48b7-8b3a-a324ffa6d87c",
 	'Reply',
 	'',
 	'',
-	1,
+	3,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("b9eee07a-4899-43c0-9edc-de3a867c4eed",
@@ -2578,15 +2578,15 @@ INSERT INTO C_EP_PROXY
 	'',
 	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
 INSERT INTO SPR_REP
-	VALUES ("205d5bce-8448-4c2e-8dcc-0ac2ed21a011",
+	VALUES ("3740527d-4687-41f2-a9f8-779965353e4c",
 	"367aa16a-c95f-4d9d-8801-d4fe010911e5",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("205d5bce-8448-4c2e-8dcc-0ac2ed21a011",
+	VALUES ("3740527d-4687-41f2-a9f8-779965353e4c",
 	'ReadAccountsLog',
 	'',
 	'',
-	1,
+	3,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("367aa16a-c95f-4d9d-8801-d4fe010911e5",
@@ -2596,15 +2596,15 @@ INSERT INTO C_EP_PROXY
 	'',
 	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
 INSERT INTO SPR_REP
-	VALUES ("ff98ba71-9cbe-433c-9487-a0c667990151",
+	VALUES ("13a6e05c-1275-4261-a3a0-b8ea38705c07",
 	"e3af3c1a-0b53-43b0-af3e-ddd2edd1ba67",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("ff98ba71-9cbe-433c-9487-a0c667990151",
+	VALUES ("13a6e05c-1275-4261-a3a0-b8ea38705c07",
 	'SendAccountsLog',
 	'',
-	'UI::SendAccountsLog( Code:param.Code, Name:param.Name, Action:param.Action );',
-	1,
+	'',
+	3,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("e3af3c1a-0b53-43b0-af3e-ddd2edd1ba67",
