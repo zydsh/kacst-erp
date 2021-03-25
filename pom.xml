@@ -17,6 +17,8 @@
     <module>Finance</module>
     <module>hrSystem</module>
     <module>HRUI</module>
+    <module>DB</module>
+
 
   </modules>
 </project>
