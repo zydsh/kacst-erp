@@ -1,16 +1,16 @@
 -- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
 
 INSERT INTO EP_PKG
-	VALUES ("ecd29276-badc-454b-832f-4c6f02735af3",
+	VALUES ("671a9fc0-0036-4488-a2ad-46663d0ff6b0",
 	"00000000-0000-0000-0000-000000000000",
-	"264476ae-3107-4340-99f3-5f2c000e6596",
-	'SharedTypes',
+	"a012df04-a680-4110-97c4-3a91068c4346",
+	'AccountTypes',
 	'',
 	0);
 INSERT INTO GD_MD
-	VALUES ("66973e07-7e8b-4cbe-844e-c612da9daff7",
+	VALUES ("7d7dec2a-5e0f-4e1b-83e2-72d335cfc61c",
 	112,
-	"ecd29276-badc-454b-832f-4c6f02735af3",
+	"671a9fc0-0036-4488-a2ad-46663d0ff6b0",
 	108,
 	0,
 	0,
@@ -25,16 +25,16 @@ INSERT INTO GD_MD
 	0,
 	0,
 	'',
-	'Database::db::dbs::SharedTypes');
+	'Finance::Fin::fms::AccountTypes');
 INSERT INTO DIM_DIA
-	VALUES ("66973e07-7e8b-4cbe-844e-c612da9daff7",
+	VALUES ("7d7dec2a-5e0f-4e1b-83e2-72d335cfc61c",
 	'',
 	1.000000,
 	0.000000,
 	0.000000,
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO EP_PKGREF
-	VALUES ("ecd29276-badc-454b-832f-4c6f02735af3",
+	VALUES ("671a9fc0-0036-4488-a2ad-46663d0ff6b0",
 	"9f71bb05-5b3c-4f09-8e0b-8b632982b3c3");
 INSERT INTO EP_PKG_PROXY
 	VALUES ("9f71bb05-5b3c-4f09-8e0b-8b632982b3c3",
@@ -43,26 +43,26 @@ INSERT INTO EP_PKG_PROXY
 	'SharedTypes',
 	'',
 	0,
-	'../../../SharedTypes/SharedTypes.xtuml');
+	'../../../../../../Database/models/Database/SharedTypes/SharedTypes.xtuml');
 INSERT INTO PE_PE
-	VALUES ("ecd29276-badc-454b-832f-4c6f02735af3",
+	VALUES ("671a9fc0-0036-4488-a2ad-46663d0ff6b0",
 	1,
 	"00000000-0000-0000-0000-000000000000",
-	"5d8ebde9-fedd-4340-a076-f7b870c1595b",
+	"8d322bed-f6f2-48fc-b59c-77870565eb6e",
 	7);
 INSERT INTO C_C_PROXY
-	VALUES ("5d8ebde9-fedd-4340-a076-f7b870c1595b",
+	VALUES ("8d322bed-f6f2-48fc-b59c-77870565eb6e",
 	"00000000-0000-0000-0000-000000000000",
 	"00000000-0000-0000-0000-000000000000",
-	'dbs',
+	'fms',
 	'',
 	0,
 	"00000000-0000-0000-0000-000000000000",
 	0,
 	'',
-	'../dbs.xtuml');
+	'../fms.xtuml');
 INSERT INTO S_SYS_PROXY
-	VALUES ("264476ae-3107-4340-99f3-5f2c000e6596",
-	'Database',
+	VALUES ("a012df04-a680-4110-97c4-3a91068c4346",
+	'Finance',
 	1,
-	'../../../Database.xtuml');
+	'../../../Finance.xtuml');
