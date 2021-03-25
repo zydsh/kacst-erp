@@ -826,7 +826,7 @@ INSERT INTO SM_ACT
 		->Account[R170.''operates''];
 		
 relate self to credit across R50.''credits'';
-
+ 
 self.Log( EventType:AccountEvents::PaymentApproved );
 ',
 	'',

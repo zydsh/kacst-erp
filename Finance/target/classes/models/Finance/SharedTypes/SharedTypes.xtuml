@@ -271,6 +271,36 @@ INSERT INTO S_ENUM
 	'',
 	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_ENUM
+	VALUES ("22ec9c35-2db6-48f8-974e-ee3c4071ac38",
+	'PaymentApproved',
+	'',
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
+	"b08dc339-1d3f-4a20-aac8-a42408c8c487");
+INSERT INTO S_ENUM
+	VALUES ("2315c8ba-21e2-4a6f-a1dd-69486c398b69",
+	'DeductionCanceled',
+	'',
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
+	"22ec9c35-2db6-48f8-974e-ee3c4071ac38");
+INSERT INTO S_ENUM
+	VALUES ("c9ba80fb-a8e0-41ff-9251-2a9358d421e9",
+	'TransferMade',
+	'',
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
+	"2315c8ba-21e2-4a6f-a1dd-69486c398b69");
+INSERT INTO S_ENUM
+	VALUES ("5aea75ca-52ae-445f-b024-f549b111ab85",
+	'TransferApproved',
+	'',
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
+	"c9ba80fb-a8e0-41ff-9251-2a9358d421e9");
+INSERT INTO S_ENUM
+	VALUES ("816543ae-559a-48fd-ab43-b509ac33746e",
+	'TransferAborted',
+	'',
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
+	"5aea75ca-52ae-445f-b024-f549b111ab85");
 INSERT INTO PE_PE
 	VALUES ("ff7466eb-0aff-45d9-bc48-3f240d210f84",
 	1,
