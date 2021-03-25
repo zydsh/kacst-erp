@@ -803,7 +803,7 @@ if (empty debit)
 
 	relate self to debit across R30.''debits'';
 
-	self.Log( EventType:Account::PaymentAssigned );
+	self.Log( EventType:AccountEvents::PaymentAssigned );
 end if;
 
 ',
