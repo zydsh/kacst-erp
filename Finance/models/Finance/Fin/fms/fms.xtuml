@@ -2567,14 +2567,68 @@ INSERT INTO SPR_RS
 	VALUES ("0b26dafd-d13b-4f1d-b771-9a7ea0f7d5d6",
 	'LogAccount',
 	'',
-	'',
-	3,
+	'ORM::LogAccount( Code:param.Code, Name:param.Name, Action:param.Action );',
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("96d3a055-66c3-4669-9b9c-8378242831ee",
 	"4b813629-fe71-4501-8e05-e1088b5edfea",
 	-1,
 	'LogAccount',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("d9673464-2dd2-42e8-9631-a7db8deaacc5",
+	"157629d1-ea81-4fc3-8266-1380c6e7870b",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("d9673464-2dd2-42e8-9631-a7db8deaacc5",
+	'ReadAccountsLog',
+	'',
+	'ORM::ReadAccountsLog();',
+	1,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("157629d1-ea81-4fc3-8266-1380c6e7870b",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'ReadAccountsLog',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("82a74208-0e40-47a2-a37a-a917c4231998",
+	"8bdf0c2f-2922-4923-ba7f-922405e84704",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("82a74208-0e40-47a2-a37a-a917c4231998",
+	'SendAccountsLog',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("8bdf0c2f-2922-4923-ba7f-922405e84704",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'SendAccountsLog',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("9e52c07c-d6d3-4806-8512-aaff40b46165",
+	"19f759b0-bb91-4d73-ba1b-b113ac493d8c",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("9e52c07c-d6d3-4806-8512-aaff40b46165",
+	'AddAttributes',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("19f759b0-bb91-4d73-ba1b-b113ac493d8c",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'AddAttributes',
 	'',
 	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY

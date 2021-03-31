@@ -218,6 +218,60 @@ INSERT INTO C_EP_PROXY
 	'LogAccount',
 	'',
 	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("626e3778-2114-46cd-a534-a32c638de1cb",
+	"157629d1-ea81-4fc3-8266-1380c6e7870b",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("626e3778-2114-46cd-a534-a32c638de1cb",
+	'ReadAccountsLog',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("157629d1-ea81-4fc3-8266-1380c6e7870b",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'ReadAccountsLog',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("940edee4-a950-4b63-8626-acd927d5fc64",
+	"8bdf0c2f-2922-4923-ba7f-922405e84704",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("940edee4-a950-4b63-8626-acd927d5fc64",
+	'SendAccountsLog',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("8bdf0c2f-2922-4923-ba7f-922405e84704",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'SendAccountsLog',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("bd0f4712-69c8-4f17-90bb-80dce546fa82",
+	"19f759b0-bb91-4d73-ba1b-b113ac493d8c",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("bd0f4712-69c8-4f17-90bb-80dce546fa82",
+	'AddAttributes',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("19f759b0-bb91-4d73-ba1b-b113ac493d8c",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'AddAttributes',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("4b813629-fe71-4501-8e05-e1088b5edfea",
 	"00000000-0000-0000-0000-000000000000",
