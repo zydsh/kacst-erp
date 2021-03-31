@@ -64,7 +64,7 @@ INSERT INTO GD_GE
 	"e171c7cc-de85-48eb-9aa3-287298683473",
 	94,
 	0,
-	'ORM::main::dbs::Port1::ORM');
+	'ORM::main::dbs::ORM::ORM');
 INSERT INTO GD_CON
 	VALUES ("fbe1822c-648e-4ab6-af43-ae637f367799",
 	"00000000-0000-0000-0000-000000000000");
@@ -168,7 +168,7 @@ INSERT INTO DIM_DIA
 INSERT INTO C_PO
 	VALUES ("9ec86028-86f3-40f1-beb4-ea8dbe54f693",
 	"e63b921b-f790-4b11-be45-c84ee1f89eed",
-	'Port1',
+	'ORM',
 	0,
 	0);
 INSERT INTO C_IR
@@ -181,7 +181,7 @@ INSERT INTO C_P
 	'ORM',
 	'Unnamed Interface',
 	'',
-	'dbs::Port1::ORM');
+	'dbs::ORM::ORM');
 INSERT INTO SPR_PEP
 	VALUES ("460f7ec7-d0e9-419b-bc28-edcafa183c3c",
 	"14521c71-bdea-4743-898d-cbf73168bc5e",
@@ -198,6 +198,24 @@ INSERT INTO C_EP_PROXY
 	"4b813629-fe71-4501-8e05-e1088b5edfea",
 	-1,
 	'CreateClass',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("f37fe2cc-6aa9-4c3a-b722-41ee395894d8",
+	"96d3a055-66c3-4669-9b9c-8378242831ee",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("f37fe2cc-6aa9-4c3a-b722-41ee395894d8",
+	'LogAccount',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("96d3a055-66c3-4669-9b9c-8378242831ee",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'LogAccount',
 	'',
 	'../../Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY

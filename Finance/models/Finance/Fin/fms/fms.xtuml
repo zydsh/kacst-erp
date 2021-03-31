@@ -2559,6 +2559,24 @@ INSERT INTO C_EP_PROXY
 	'CreateClass',
 	'',
 	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("0b26dafd-d13b-4f1d-b771-9a7ea0f7d5d6",
+	"96d3a055-66c3-4669-9b9c-8378242831ee",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("0b26dafd-d13b-4f1d-b771-9a7ea0f7d5d6",
+	'LogAccount',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("96d3a055-66c3-4669-9b9c-8378242831ee",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'LogAccount',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("4b813629-fe71-4501-8e05-e1088b5edfea",
 	"00000000-0000-0000-0000-000000000000",

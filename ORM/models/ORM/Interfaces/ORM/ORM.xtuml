@@ -26,6 +26,52 @@ INSERT INTO C_PP
 	0,
 	'',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("96d3a055-66c3-4669-9b9c-8378242831ee",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'LogAccount',
+	'');
+INSERT INTO C_AS
+	VALUES ("96d3a055-66c3-4669-9b9c-8378242831ee",
+	'LogAccount',
+	'',
+	0,
+	"14521c71-bdea-4743-898d-cbf73168bc5e");
+INSERT INTO C_PP
+	VALUES ("044842d1-fd02-4dab-92fe-52bb515f70c1",
+	"96d3a055-66c3-4669-9b9c-8378242831ee",
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'Code',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("7110d15c-84f5-45fe-aefa-6b02c54acacf",
+	"96d3a055-66c3-4669-9b9c-8378242831ee",
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'Name',
+	'',
+	0,
+	'',
+	"044842d1-fd02-4dab-92fe-52bb515f70c1");
+INSERT INTO C_PP
+	VALUES ("8fe01a51-9363-45c3-af5c-28d75430a4fa",
+	"96d3a055-66c3-4669-9b9c-8378242831ee",
+	"ff7466eb-0aff-45d9-bc48-3f240d210f84",
+	'Action',
+	'',
+	0,
+	'',
+	"7110d15c-84f5-45fe-aefa-6b02c54acacf");
+INSERT INTO S_DT_PROXY
+	VALUES ("ff7466eb-0aff-45d9-bc48-3f240d210f84",
+	"00000000-0000-0000-0000-000000000000",
+	'AccountEvents',
+	'',
+	'',
+	'../../../../../Finance/models/Finance/SharedTypes/SharedTypes.xtuml');
 INSERT INTO PE_PE
 	VALUES ("4b813629-fe71-4501-8e05-e1088b5edfea",
 	1,
