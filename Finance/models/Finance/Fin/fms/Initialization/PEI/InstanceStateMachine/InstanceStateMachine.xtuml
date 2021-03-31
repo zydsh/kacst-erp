@@ -692,8 +692,14 @@ INSERT INTO SM_ACT
 	VALUES ("9d7906a7-facf-4377-987f-440d077f7bbc",
 	"ccb657ab-2034-4ec7-992b-409d7b739cb3",
 	1,
-	'
+	'className="AccountSpecification";
+ORM::CreateClass( Name:className);
+ORM::AddAttributes( ClassName:className, AttributeName:"Code", Type:ORM::SharedTypes::Types::String );
+ORM::AddAttributes( ClassName:className, AttributeName:"Name", Type:ORM::SharedTypes::Types::String );
+
+
 create object instance account of AccountSpecification;
+
 account.Code = "٢١";
 account.Name="تعويضات العاملين";
 
