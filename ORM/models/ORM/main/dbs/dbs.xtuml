@@ -182,6 +182,24 @@ INSERT INTO C_P
 	'Unnamed Interface',
 	'',
 	'dbs::Port1::ORM');
+INSERT INTO SPR_PEP
+	VALUES ("460f7ec7-d0e9-419b-bc28-edcafa183c3c",
+	"14521c71-bdea-4743-898d-cbf73168bc5e",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("460f7ec7-d0e9-419b-bc28-edcafa183c3c",
+	'CreateClass',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("14521c71-bdea-4743-898d-cbf73168bc5e",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'CreateClass',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("4b813629-fe71-4501-8e05-e1088b5edfea",
 	"00000000-0000-0000-0000-000000000000",
