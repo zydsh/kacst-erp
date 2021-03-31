@@ -2542,11 +2542,11 @@ INSERT INTO C_R
 	'Unnamed Interface',
 	'fms::DB::DB');
 INSERT INTO SPR_REP
-	VALUES ("6e85c7fd-8d9d-4318-b3e0-d99e195e5d4a",
+	VALUES ("b6179c99-fdbe-46ff-9593-97b380afa1b4",
 	"334f7ee2-3a44-4e16-a937-7185821c2408",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("6e85c7fd-8d9d-4318-b3e0-d99e195e5d4a",
+	VALUES ("b6179c99-fdbe-46ff-9593-97b380afa1b4",
 	'LogAccount',
 	'',
 	'',
@@ -2560,11 +2560,11 @@ INSERT INTO C_EP_PROXY
 	'',
 	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
 INSERT INTO SPR_REP
-	VALUES ("4e859f41-ec18-48b7-8b3a-a324ffa6d87c",
+	VALUES ("6015f4b3-7030-4937-aab2-6f33c7e6ba58",
 	"b9eee07a-4899-43c0-9edc-de3a867c4eed",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("4e859f41-ec18-48b7-8b3a-a324ffa6d87c",
+	VALUES ("6015f4b3-7030-4937-aab2-6f33c7e6ba58",
 	'Reply',
 	'',
 	'',
@@ -2578,11 +2578,11 @@ INSERT INTO C_EP_PROXY
 	'',
 	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
 INSERT INTO SPR_REP
-	VALUES ("3740527d-4687-41f2-a9f8-779965353e4c",
+	VALUES ("c664e738-2ec2-40e0-85b9-fff1989ae9cd",
 	"367aa16a-c95f-4d9d-8801-d4fe010911e5",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("3740527d-4687-41f2-a9f8-779965353e4c",
+	VALUES ("c664e738-2ec2-40e0-85b9-fff1989ae9cd",
 	'ReadAccountsLog',
 	'',
 	'',
@@ -2596,11 +2596,11 @@ INSERT INTO C_EP_PROXY
 	'',
 	'../../../../../Database/models/Database/Interfaces/DB/DB.xtuml');
 INSERT INTO SPR_REP
-	VALUES ("13a6e05c-1275-4261-a3a0-b8ea38705c07",
+	VALUES ("8abda352-dd01-4076-b5ec-145aaeeaf3e2",
 	"e3af3c1a-0b53-43b0-af3e-ddd2edd1ba67",
 	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
 INSERT INTO SPR_RS
-	VALUES ("13a6e05c-1275-4261-a3a0-b8ea38705c07",
+	VALUES ("8abda352-dd01-4076-b5ec-145aaeeaf3e2",
 	'SendAccountsLog',
 	'',
 	'',
