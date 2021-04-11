@@ -272,6 +272,78 @@ INSERT INTO C_EP_PROXY
 	'AddAttributes',
 	'',
 	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("5a4c577d-cf53-4f34-9efa-0ec6954437bd",
+	"4281f0f0-bd32-44c7-9a66-b4b42ec03374",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("5a4c577d-cf53-4f34-9efa-0ec6954437bd",
+	'CreateInstance',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4281f0f0-bd32-44c7-9a66-b4b42ec03374",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'CreateInstance',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("4cc42566-b6fb-4b64-a5e9-6cea152e1159",
+	"29b00879-31ff-4de8-83b3-3b16f1aaa797",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("4cc42566-b6fb-4b64-a5e9-6cea152e1159",
+	'AddInstanceAttributes',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("29b00879-31ff-4de8-83b3-3b16f1aaa797",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'AddInstanceAttributes',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("7e80e101-1e07-4d5e-aaf3-6979bfa107cc",
+	"bc1ffaed-c6b6-422e-9a12-0d468c0c2d24",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("7e80e101-1e07-4d5e-aaf3-6979bfa107cc",
+	'ReadInstances',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("bc1ffaed-c6b6-422e-9a12-0d468c0c2d24",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'ReadInstances',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("548c95b9-8f09-4d56-b4d6-c1253ec62130",
+	"4ce2a2a0-aecd-418f-b463-7b017262ea3e",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("548c95b9-8f09-4d56-b4d6-c1253ec62130",
+	'RelateInstances',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4ce2a2a0-aecd-418f-b463-7b017262ea3e",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'RelateInstances',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("4b813629-fe71-4501-8e05-e1088b5edfea",
 	"00000000-0000-0000-0000-000000000000",

@@ -2631,6 +2631,78 @@ INSERT INTO C_EP_PROXY
 	'AddAttributes',
 	'',
 	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("b3cf141b-c965-4e90-bde3-64dae3b518f1",
+	"4281f0f0-bd32-44c7-9a66-b4b42ec03374",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("b3cf141b-c965-4e90-bde3-64dae3b518f1",
+	'CreateInstance',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4281f0f0-bd32-44c7-9a66-b4b42ec03374",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'CreateInstance',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("8a89a4d2-1acb-4c32-b727-d441e197f527",
+	"29b00879-31ff-4de8-83b3-3b16f1aaa797",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("8a89a4d2-1acb-4c32-b727-d441e197f527",
+	'AddInstanceAttributes',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("29b00879-31ff-4de8-83b3-3b16f1aaa797",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'AddInstanceAttributes',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("1df5cbeb-07d6-422c-85ea-84ddddcd32a7",
+	"bc1ffaed-c6b6-422e-9a12-0d468c0c2d24",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("1df5cbeb-07d6-422c-85ea-84ddddcd32a7",
+	'ReadInstances',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("bc1ffaed-c6b6-422e-9a12-0d468c0c2d24",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'ReadInstances',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("743576d1-df0f-4583-a967-a1e9ca98186a",
+	"4ce2a2a0-aecd-418f-b463-7b017262ea3e",
+	"4765e5c0-fee4-46e1-85fa-db2ae539c7c0");
+INSERT INTO SPR_RS
+	VALUES ("743576d1-df0f-4583-a967-a1e9ca98186a",
+	'RelateInstances',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4ce2a2a0-aecd-418f-b463-7b017262ea3e",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'RelateInstances',
+	'',
+	'../../../../../ORM/models/ORM/Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("4b813629-fe71-4501-8e05-e1088b5edfea",
 	"00000000-0000-0000-0000-000000000000",
