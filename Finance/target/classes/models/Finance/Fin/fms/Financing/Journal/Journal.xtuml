@@ -1,0 +1,254 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	'Journal',
+	9,
+	'Journal',
+	'Represents a collection of entries. 
+Journals may be general purpose or 
+specialized.',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("0612ac86-266f-48d1-8d85-7d9772c76c2c",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	'MakeEntry',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'create object instance entry of Entry;
+entry.Date = param.Date;
+entry.Description = param.Description;
+relate self to entry across R101;
+
+create object instance amount of Amount;
+amount.Amount = param.Amount;
+relate entry to amount across R40;
+
+select one column related by self->Column[R160.''has single''];
+
+if (not empty column)
+		relate amount to column across R130;
+		generate Amount1:PaymentAssigned to amount;
+end if;
+',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("e9414587-77a8-46e7-bc1f-0abf6b01dd0b",
+	"0612ac86-266f-48d1-8d85-7d9772c76c2c",
+	'Date',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("9a118ede-86a0-4b66-93d0-fd87cf0a892f",
+	"0612ac86-266f-48d1-8d85-7d9772c76c2c",
+	'Description',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"e9414587-77a8-46e7-bc1f-0abf6b01dd0b",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("fd433d3e-d3ff-40db-a8da-06014523f310",
+	"0612ac86-266f-48d1-8d85-7d9772c76c2c",
+	'Amount',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"9a118ede-86a0-4b66-93d0-fd87cf0a892f",
+	'');
+INSERT INTO O_TFR
+	VALUES ("2c4bff31-a5e9-4c82-b571-e0eef912f9e7",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	'MakeTransferEntry',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'select any column related by self->Column[R120.''has''] where selected.Title == param.Column;
+if (not empty column)
+	create object instance entry of Entry;
+		entry.Date = param.Date;
+		entry.Description = param.Description;
+		relate entry to self across R101.''made to'';
+		
+	create object instance amount of Amount;
+		amount.Amount = param.Amount;
+		relate column to amount across R130.''holds'';
+		
+	relate entry to amount across R40.''records'';
+	generate Amount5:TransferMade to amount;
+end if;
+
+
+
+
+
+',
+	1,
+	'',
+	"0612ac86-266f-48d1-8d85-7d9772c76c2c",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("59911150-6392-4cfd-b899-3a48ddf2e685",
+	"2c4bff31-a5e9-4c82-b571-e0eef912f9e7",
+	'Column',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("e717bde3-5df5-4879-8011-f7ef9b7f3464",
+	"2c4bff31-a5e9-4c82-b571-e0eef912f9e7",
+	'Date',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"59911150-6392-4cfd-b899-3a48ddf2e685",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("5b31bccf-19d4-4132-8ecc-41edf2d9a395",
+	"2c4bff31-a5e9-4c82-b571-e0eef912f9e7",
+	'Description',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"e717bde3-5df5-4879-8011-f7ef9b7f3464",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("9b4841e3-e07d-4a9b-924f-7950b3e035ec",
+	"2c4bff31-a5e9-4c82-b571-e0eef912f9e7",
+	'Amount',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"5b31bccf-19d4-4132-8ecc-41edf2d9a395",
+	'');
+INSERT INTO O_TFR
+	VALUES ("7d50f2c7-9149-4f26-8ef2-bfcea5852b81",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	'ReadTransfers',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'	select any column related by self->Column[R120.''has''] where selected.Title==param.Column;
+	if (not empty column)
+		select many amounts related by column->Amount[R130.''holds''];
+		for each amount in amounts
+		select one entry related by amount->Entry[R40.''recorded for''];
+			UI::SendJournal( Name:self.Name, Description:self.Description, 
+					ColumnTitle:column.Title, ColumnDescription:column.Title, 
+					EntryDate:entry.Date, EntryDescription:entry.Description, 
+					EntryAmount:amount.Amount );
+		end for;
+	else
+		UI::Reply( msg:"Salary journal is not initiated", state:False );
+	end if;',
+	1,
+	'',
+	"2c4bff31-a5e9-4c82-b571-e0eef912f9e7",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("aa48ae10-1ab8-452b-873c-34a570e5698d",
+	"7d50f2c7-9149-4f26-8ef2-bfcea5852b81",
+	'Column',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("45765881-b4c2-40b7-959b-abe1e84d3665",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	'readPending',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'
+select many columns related by self->Column[R120.''has''];
+if (not empty columns)
+	for each column in columns
+		select many amounts related by column->Amount[R130.''holds''];
+		for each amount in amounts
+			generate Amount6:AmountRequested to amount;
+		end for;
+	end for;
+end if;',
+	1,
+	'',
+	"7d50f2c7-9149-4f26-8ef2-bfcea5852b81",
+	0);
+INSERT INTO O_NBATTR
+	VALUES ("89383897-e1e8-4eda-b97c-f46bebf138b1",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1");
+INSERT INTO O_BATTR
+	VALUES ("89383897-e1e8-4eda-b97c-f46bebf138b1",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1");
+INSERT INTO O_ATTR
+	VALUES ("89383897-e1e8-4eda-b97c-f46bebf138b1",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	"00000000-0000-0000-0000-000000000000",
+	'Name',
+	'A unique name for the journal. 
+Some names are standard such as: master journal, or cash journal.
+Others may be specialized depending on the entity''s accounting
+practice.',
+	'',
+	'Name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("f80dec19-8229-4f4a-8dd3-8bb83f20b702",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1");
+INSERT INTO O_BATTR
+	VALUES ("f80dec19-8229-4f4a-8dd3-8bb83f20b702",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1");
+INSERT INTO O_ATTR
+	VALUES ("f80dec19-8229-4f4a-8dd3-8bb83f20b702",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	"89383897-e1e8-4eda-b97c-f46bebf138b1",
+	'Description',
+	'A note on the purpose of the journal and some guidelines
+on using it.',
+	'',
+	'Description',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1");
+INSERT INTO O_OIDA
+	VALUES ("89383897-e1e8-4eda-b97c-f46bebf138b1",
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	0,
+	'Name');
+INSERT INTO O_ID
+	VALUES (1,
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1");
+INSERT INTO O_ID
+	VALUES (2,
+	"ef105bc0-5a8d-470a-a53c-420b48c984f1");
+INSERT INTO PE_PE
+	VALUES ("ef105bc0-5a8d-470a-a53c-420b48c984f1",
+	1,
+	"4d16c76f-7499-433f-bf47-4cf1149390b7",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("4d16c76f-7499-433f-bf47-4cf1149390b7",
+	"00000000-0000-0000-0000-000000000000",
+	"a012df04-a680-4110-97c4-3a91068c4346",
+	'Financing',
+	'',
+	0,
+	'../Financing.xtuml');
