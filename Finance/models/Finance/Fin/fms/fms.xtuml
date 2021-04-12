@@ -2490,7 +2490,7 @@ INSERT INTO SPR_PS
 	VALUES ("2958328e-a61e-4e6b-b775-83297e3df015",
 	'ReadAccountsLog',
 	'',
-	'DB::ReadAccountsLog();',
+	'ORM::ReadAccountsLog();',
 	1,
 	0);
 INSERT INTO C_EP_PROXY
@@ -2550,7 +2550,7 @@ INSERT INTO SPR_RS
 	'CreateClass',
 	'',
 	'',
-	3,
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("14521c71-bdea-4743-898d-cbf73168bc5e",
@@ -2604,7 +2604,7 @@ INSERT INTO SPR_RS
 	'SendAccountsLog',
 	'',
 	'',
-	3,
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("8bdf0c2f-2922-4923-ba7f-922405e84704",
@@ -2622,7 +2622,7 @@ INSERT INTO SPR_RS
 	'AddAttributes',
 	'',
 	'',
-	3,
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("19f759b0-bb91-4d73-ba1b-b113ac493d8c",
@@ -2640,7 +2640,7 @@ INSERT INTO SPR_RS
 	'CreateInstance',
 	'',
 	'',
-	3,
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("4281f0f0-bd32-44c7-9a66-b4b42ec03374",
@@ -2658,7 +2658,7 @@ INSERT INTO SPR_RS
 	'AddInstanceAttributes',
 	'',
 	'',
-	3,
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("29b00879-31ff-4de8-83b3-3b16f1aaa797",
@@ -2676,7 +2676,7 @@ INSERT INTO SPR_RS
 	'ReadInstances',
 	'',
 	'',
-	3,
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("bc1ffaed-c6b6-422e-9a12-0d468c0c2d24",
@@ -2694,7 +2694,7 @@ INSERT INTO SPR_RS
 	'RelateInstances',
 	'',
 	'',
-	3,
+	1,
 	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("4ce2a2a0-aecd-418f-b463-7b017262ea3e",

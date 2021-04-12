@@ -18,6 +18,8 @@
     <module>hrSystem</module>
     <module>HRUI</module>
     <module>DB</module>
+    <module>ORM</module>
+
 
 
   </modules>
