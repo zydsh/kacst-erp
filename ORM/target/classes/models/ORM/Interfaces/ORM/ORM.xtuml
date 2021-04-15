@@ -129,19 +129,19 @@ INSERT INTO C_PP
 INSERT INTO C_PP
 	VALUES ("2183c632-1673-4e34-aafc-ac0fcd242c2d",
 	"19f759b0-bb91-4d73-ba1b-b113ac493d8c",
-	"679c3cb5-0626-4ebf-8ada-5168b75f3f57",
+	"4c142076-0c50-42d9-b6a5-fcc04b73d85b",
 	'ORMType',
 	'',
 	0,
 	'',
 	"3c93e140-ba16-4011-afb6-389b96671bdc");
 INSERT INTO S_DT_PROXY
-	VALUES ("679c3cb5-0626-4ebf-8ada-5168b75f3f57",
+	VALUES ("4c142076-0c50-42d9-b6a5-fcc04b73d85b",
 	"00000000-0000-0000-0000-000000000000",
 	'Types',
 	'',
 	'',
-	'../../../../../Finance/models/Finance/SharedTypes/SharedTypes.xtuml');
+	'../../SharedTypes/SharedTypes.xtuml');
 INSERT INTO C_EP
 	VALUES ("4281f0f0-bd32-44c7-9a66-b4b42ec03374",
 	"4b813629-fe71-4501-8e05-e1088b5edfea",
