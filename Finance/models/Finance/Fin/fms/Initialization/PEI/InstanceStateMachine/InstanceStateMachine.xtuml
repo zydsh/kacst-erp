@@ -1049,12 +1049,12 @@ while (i >=1)
 	create object instance subaccount of AccountSpecification;
 	subaccount.Code= nameCode[i];
 	subaccount.Name=nameCode[i-1];
-	//ORM::CreateInstance( ClassName:className, InstanceName:instanceName );
-	//ORM::AddInstanceAttributes( ClassName:className, InstanceName:instanceName, AttributeName:"Code", AttributeValue:subaccount.Code);
-	//ORM::AddInstanceAttributes( ClassName:className, InstanceName:instanceName, AttributeName:"Name", AttributeValue:subaccount.Name);
+	ORM::CreateInstance( ClassName:className, InstanceName:instanceName );
+	ORM::AddInstanceAttributes( ClassName:className, InstanceName:instanceName, AttributeName:"Code", AttributeValue:subaccount.Code);
+	ORM::AddInstanceAttributes( ClassName:className, InstanceName:instanceName, AttributeName:"Name", AttributeValue:subaccount.Name);
 
 	relate subaccount to account across R80.''part'';
-	//ORM::RelateInstances( ClassNameA:"AccountSpecification", ClassNameB:"AccountSpecification", RelationshipName:"part", InstanceKeyA:account.Code, InstanceKeyB:subaccount.Code);
+	ORM::RelateInstances( ClassNameA:"AccountSpecification", ClassNameB:"AccountSpecification", RelationshipName:"part", InstanceKeyA:account.Code, InstanceKeyB:subaccount.Code);
 	i = i-2;
 end while;
 
