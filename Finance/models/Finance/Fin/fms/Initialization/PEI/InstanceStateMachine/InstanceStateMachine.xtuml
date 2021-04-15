@@ -1061,7 +1061,7 @@ end while;
 
 	create object instance programAccount of AccountSpecification;
 		programAccount.Code= "400750200";
-		programAccount.Name="إطلاق الأقمار الصناعية";
+		programAccount.Name="إطلاق الأقمار الصناعية"; 
 		//ORM::CreateInstance( ClassName:className, InstanceName:"programAccount" );
 		//ORM::AddInstanceAttributes( ClassName:className, InstanceName:instanceName, AttributeName:"Code", AttributeValue:subaccount.Code);
 		//ORM::AddInstanceAttributes( ClassName:className, InstanceName:instanceName, AttributeName:"Name", AttributeValue:subaccount.Name);
