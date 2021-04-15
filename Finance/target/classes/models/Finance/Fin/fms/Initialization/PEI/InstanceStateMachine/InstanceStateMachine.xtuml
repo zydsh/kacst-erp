@@ -696,7 +696,7 @@ INSERT INTO SM_ACT
 InstanceName="account";
 ORM::CreateClass( Name:className);
 //name space issue forcing to use hard coded types 
-ORM::AddAttributes( ClassName:className, AttributeName:"Code", ORMType:Finance::SharedTypes::Types::String );
+ORM::AddAttributes( ClassName:className, AttributeName:"Code", ORMType:SharedTypes::ORMTypes::String );
 //ORM::AddAttributes( ClassName:className, AttributeName:"Name", ORMType:"string" );
 
 

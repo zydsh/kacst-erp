@@ -152,7 +152,7 @@ INSERT INTO GD_GE
 	"679c3cb5-0626-4ebf-8ada-5168b75f3f57",
 	52,
 	0,
-	'Finance::SharedTypes::Types');
+	'Finance::SharedTypes::ORMTypes');
 INSERT INTO GD_SHP
 	VALUES ("dac9c349-603c-48fd-a561-e3bdeac6324f");
 INSERT INTO GD_NCS
@@ -334,7 +334,7 @@ INSERT INTO PE_PE
 INSERT INTO S_DT
 	VALUES ("679c3cb5-0626-4ebf-8ada-5168b75f3f57",
 	"00000000-0000-0000-0000-000000000000",
-	'Types',
+	'ORMTypes',
 	'',
 	'');
 INSERT INTO S_EDT
