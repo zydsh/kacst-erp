@@ -737,7 +737,7 @@ account.Code = "٢٨";
 account.Name="مصروفات أخرى";
  
 create object instance account of AccountSpecification;
-account.Code = "٣١";
+account.Code = "٣١"; 
 account.Name="أصول غير مالية";
 
 select many accounts from instances of AccountSpecification;
