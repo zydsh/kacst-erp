@@ -368,6 +368,96 @@ INSERT INTO C_EP_PROXY
 	'RelateInstances',
 	'',
 	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("5db0478a-cfe8-4c0b-a5f3-cbd149ff39fe",
+	"bc229101-ab1c-49a9-bb09-9df267ca5365",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("5db0478a-cfe8-4c0b-a5f3-cbd149ff39fe",
+	'RelateClasses',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("bc229101-ab1c-49a9-bb09-9df267ca5365",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'RelateClasses',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("4335b9f2-e2c1-462b-9815-013d4f3ad3f2",
+	"51d33072-0e9a-4119-9de3-2da59abdc4de",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("4335b9f2-e2c1-462b-9815-013d4f3ad3f2",
+	'ReadAssociations',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("51d33072-0e9a-4119-9de3-2da59abdc4de",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'ReadAssociations',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("c8ecea9f-294b-4b1e-a82a-7a5d21e0f1d2",
+	"6b525dcd-3faa-479b-8828-d3fb4aaa18aa",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("c8ecea9f-294b-4b1e-a82a-7a5d21e0f1d2",
+	'SendAssociations',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("6b525dcd-3faa-479b-8828-d3fb4aaa18aa",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'SendAssociations',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("fb822d6c-e08b-40ae-afad-755488f0480b",
+	"1abb6fac-dbad-4569-a17b-55c4ed85b691",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("fb822d6c-e08b-40ae-afad-755488f0480b",
+	'SendInstances',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("1abb6fac-dbad-4569-a17b-55c4ed85b691",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'SendInstances',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("527d29f3-e1c3-43db-8039-552e970f94b4",
+	"afbe6417-f184-48a5-ab98-b5e6aa424109",
+	"e171c7cc-de85-48eb-9aa3-287298683473");
+INSERT INTO SPR_PS
+	VALUES ("527d29f3-e1c3-43db-8039-552e970f94b4",
+	'UnrelateInstances',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("afbe6417-f184-48a5-ab98-b5e6aa424109",
+	"4b813629-fe71-4501-8e05-e1088b5edfea",
+	-1,
+	'UnrelateInstances',
+	'',
+	'../../Interfaces/ORM/ORM.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("4b813629-fe71-4501-8e05-e1088b5edfea",
 	"00000000-0000-0000-0000-000000000000",
